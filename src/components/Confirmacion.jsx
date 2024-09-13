@@ -4,7 +4,7 @@ const Confirmacion = () => {
   return (
     <>
       <div className='confirmar-title'>
-        <img src="/img/icons/confirmar.svg" alt="icon-confirm" />
+        {/* <img src="/img/icons/confirmar.svg" alt="icon-confirm" /> */}
         <h2>Confirmación de Asistencia</h2>
       </div>
 
@@ -13,7 +13,9 @@ const Confirmacion = () => {
           <div className="confirmar-border centrar">
             <div className="confirmar-whats">
               <img src="/img/icons/whats.svg" alt="whatsapp-icon" />
-              <p>WhatsApp</p>
+              <p>Nos encantaria contar con su presencia en nuestra boda</p>
+              <p>Agradecemos su confirmación de asistencia antes del </p>
+              <p>1 de Noviembre de 2024</p>
             </div> 
             
             <div className='confirmacion-buttons-content'>

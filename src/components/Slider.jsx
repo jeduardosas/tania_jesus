@@ -43,6 +43,10 @@ const Slider = () => {
       original:'/img/originals/10.webp',
       thumbnail:'/img/thumbnails/small_10.webp'
     },
+    {
+      original:'/img/originals/11.webp',
+      thumbnail:'/img/thumbnails/small_11.webp'
+    },
   ];
 
   

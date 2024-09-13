@@ -1,19 +1,29 @@
 .modal-tittle-1{
   margin:20px 0;
+  text-transform: uppercase;
+  color: var(--back-color);
 }
 
 .modal-tittle-2{
   margin-bottom: 20px;
   font-family: var(--cursiva);
   font-size: 50px;
+  color: var(--back-color);
+}
+.modal-tittle2-y{
+  font-size: 40px;
+  font-family: var(--fuentePrincipal);
+  color: var(--back-color);
+  font-weight: normal;
 }
 
 .modal-content{
   margin-bottom: 20px;
-  
+  color: var(--back-color);
+  font-size: 16px;
 }
 .modal-button{
-  background-color:var(--color_principal) ;
+  background-color:#b7bd9e ;
   color:var(--color_secundario);
   padding: 10px 15px;
   font-size: 25px;

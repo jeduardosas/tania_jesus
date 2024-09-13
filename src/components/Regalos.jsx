@@ -9,8 +9,8 @@ const Regalos = () => {
     <div className='regalos'>
       {/* <h2 className='regalos-title'>Codigo de vestimenta</h2> */}
       <div className="regalos-cards">
-        {/* <div id='sobreContent' className={`regalos-card sombra ${sobreContentVisible && 'animate__animated animate__zoomIn'}`}>
-          <h3 className='regalos-card-title'>Tiulo</h3>
+        <div id='sobreContent' className={`regalos-card sombra ${sobreContentVisible && 'animate__animated animate__zoomIn'}`}>
+          {/* <h3 className='regalos-card-title'>Tiulo</h3> */}
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" className ="icon icon-tabler icon-tabler-mail" width="60" height="60" viewBox="0 0 24 24" strokeWidth="0.5" stroke="#bea77b" fill="none" strokeLinecap="round" strokeLinejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -20,26 +20,24 @@ const Regalos = () => {
           </div>
           <div  className='regalos-card-content regalo-card-sobre'>
             <p>
-              Nuestro mejor regalo es compartir este gran día, 
+              Su presencia es lo más importante,  si desea tener un detalle con nosotros puede ser en efectivo.
             </p>
-            <p>si deseas obsequiearnos algo,</p>
-            <p>
-              podemos sugerir la opcion.
-            </p>
+            <p>Gracias.</p>
+            
           </div>
-        </div> */}
+        </div>
 
-        <div id='barraContent' className={`regalos-card sombra ${barraContentVisible && 'animate__animated animate__zoomIn'}`}>
+        {/* <div id='barraContent' className={`regalos-card sombra ${barraContentVisible && 'animate__animated animate__zoomIn'}`}>
           
           <h3 className='regalos-card-title'>CÓdigo de Vestimenta:</h3>
           
           <div className='regalos-card-content'>
             <p>Formal</p>
-          </div>
+          </div> */}
           {/* <div className='regalos-card-button'>
             <button className='regalos-card-button'><a target='_blank' href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51407974">Ir a Mesa de Regalos</a></button>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
       
     </div>

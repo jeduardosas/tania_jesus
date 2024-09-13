@@ -32,6 +32,7 @@ const customStyles = {
     textAlign:'center',
     border:'none',
     boxShadow:'10px 10px 10px #bdbdbd',
+    backgroundColor:'#5e6c5b',
 
   },
 };
@@ -86,8 +87,12 @@ const Invitacion = () => {
         shouldCloseOnOverlayClick={false}
       >
         
-        <h5 className="modal-tittle-1">{data.event_type === 'boda' ? 'Nuestra Boda' : 'MIS XV AÑOS'}</h5>
-        <h2 className="modal-tittle-2">{data.event_type === 'boda' ? `${data.nombre_novia} y ${data.nombre_novio}` : `${data.nombre}`}</h2>
+        {/* <h5 className="modal-tittle-1">{data.event_type === 'boda' ? 'Nuestra Boda' : 'MIS XV AÑOS'}</h5> */}
+        <h2 className="modal-tittle-2">
+          <p>{data.nombre_novia}</p>
+          <p className="modal-tittle2-y">&</p>
+          <p>{data.nombre_novio}</p>
+        </h2>
         <p className="modal-content">Para una mejor experiencia, por favor acepta la reproduccion automatica</p>   
         <button className="modal-button" onClick={handlePlay}>Aceptar</button>
       </Modal>

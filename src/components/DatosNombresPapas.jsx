@@ -4,7 +4,7 @@ const DatosNombresPapas = () => {
   return (
     <div className='datos-nombres-papas'>
       <div className='datos-nombres-papas_title'>
-        <p>En compañia de nuestros padres</p>
+        <p>Con la bendición de Dios y nuestros padres</p>
       </div>
       <div className='datos-nombres-papas_cards'>
         <div className='datos-nombres-papas_card'>
@@ -16,9 +16,11 @@ const DatosNombresPapas = () => {
           <p>{data.nombre_papa_novio}</p>
         </div>
       </div>
-      <div className='datos-nombres-papas-footer'>
-        <p>Nos Casamos</p>
+      <div className="datos_nombres-padrinos">
+        <p>{data.nombre_madrina}</p>
+        <p>{data.nombre_padrino}</p>
       </div>
+      
     </div> 
   )
 }

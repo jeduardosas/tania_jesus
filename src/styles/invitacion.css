@@ -11,16 +11,22 @@
   z-index: -100;
 }
 .img-fondo-1{
-  top: -30px;
-  left: -70px;
+  top:0px;
+  left:0px;
 
 }
 .img-fondo-2{
-  bottom:-60px;
-  right: -40px;
+  top:0px;
+  right:50px;
 }
 .img-fondo img{
   width: 300px;
+}
+@media (min-width:768px ) {
+  .img-fondo-2{
+    top:0px;
+    right:0px;
+  }
 }
 /* H E A D E R */
 
@@ -43,9 +49,14 @@
 
 .frase-text{
   text-align: center;
-  font-family:var(--cursiva);
-  font-size: 35px;
-  line-height:30px;
+  font-size: 18px;
+  line-height:20px;
+}
+.frase_text-nos{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
 /* .header-img{
   width: 100%;
@@ -75,7 +86,7 @@
 .datos-nombre-b,
 .datos-nombre-g{
   /* text-transform: uppercase; */
-  font-size: 120px;
+  font-size: 60px;
   text-align: center;
   line-height:.8 ;
   font-family: var(--cursiva);

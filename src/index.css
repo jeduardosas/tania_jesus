@@ -2,18 +2,18 @@
   --fuentePrincipal:"Playfair Display", serif;
   --cursiva: "Parisienne", cursive;
   --fuenteSecundaria:"Nanum Myeongjo", serif;
-  --color_principal:rgb(0 70 116);
-  --color_secundario:rgb(137 3 21);
-  --color_detalles: rgb(218 167 88);
+  --color_principal:#5e6c5b;
+  --color_secundario:#b7bd9e;
+  --color_detalles:#b7bd9e;
   --color_timeline:rgb(137 3 21);
-  --back-color:#fafafa;
+  --back-color:#f4efe6;
   --grisSombra: #bdbdbd;
 }
 
 body{
   height: 100vh;
   margin: 0; 
-  background-color: #f6f8fa;
+  background-color:var(--back-color);
   font-family: var(--fuentePrincipal);
   font-size: 20px;
   color: var(--color_principal);

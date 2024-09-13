@@ -3,7 +3,7 @@ import '../styles/contdown.css'
 
 const CountDown = () => {
   // Establecer la fecha objetivo de manera estática (año, mes - 1, día, hora, minutos)
-  const targetDate = new Date(2024, 11, 30, 19, 0);
+  const targetDate = new Date(2024, 9, 23, 18, 0);
 
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining(targetDate));
 

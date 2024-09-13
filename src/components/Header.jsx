@@ -6,15 +6,12 @@ const Header = () => {
 
     
     <>
-      <header className="header centrar">
-          <div className="header-image">
-            <img loading="lazy"  src={`/img/${data.img_header}`} alt="img_kamila" />
-          </div>
-      </header>
+      
     
 
         <div className="frase">
           <p className="frase-text">{data.frase}</p>
+          <p className="frase_text-nos">¡NOS CASAMOS!</p>
         </div>
       
       {/* <div  className='header-img centrar animate__animated animate__fadeInUp'>

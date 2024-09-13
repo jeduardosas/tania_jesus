@@ -14,8 +14,8 @@ const TimeLine = () => {
   const protocol = [
     {
       id:1,
-      time:'19:00 PM',
-      name:'Recepción y Ceremonia Civil',
+      time:'18:00 PM',
+      name:'Ceremonia religiosa',
       icon:'rings_white',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
@@ -23,8 +23,8 @@ const TimeLine = () => {
 
     {
       id:2,
-      time:'20:00 PM',
-      name:'protocolo',
+      time:'19:00 PM',
+      name:'Recepción',
       icon:'drinking_white',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
@@ -32,8 +32,8 @@ const TimeLine = () => {
 
     {
       id:3,
-      time:'21:00 PM',
-      name:'buen provecho',
+      time:'19:30 PM',
+      name:'C. Civil',
       icon:'cutlery_white',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
@@ -41,8 +41,24 @@ const TimeLine = () => {
 
     {
       id:4,
+      time:'21:00 PM',
+      name:'Protocolo',
+      icon:'music_white',
+      color:'var(--color_timeline)',
+      textColor:'rgb(218 167 88)'
+    },
+    {
+      id:5,
       time:'22:00 PM',
-      name:'hasta que el cuerpo aguante',
+      name:'Cena',
+      icon:'music_white',
+      color:'var(--color_timeline)',
+      textColor:'rgb(218 167 88)'
+    },
+    {
+      id:6,
+      time:'23:00 PM',
+      name:'Baile',
       icon:'music_white',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
