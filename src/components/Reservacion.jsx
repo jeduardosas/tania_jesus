@@ -13,7 +13,7 @@ const Reservacion = ({pases}) => {
         <p>{pases}</p>
       </div>
       <h2 className="lugares-abajo">{leyenda}</h2>
-      <span className='lugares-leyenda'>&#40; favor de respetar este numero &#41;</span>
+      <span className='lugares-leyenda'>&#40; favor de respetar este número &#41;</span>
     </>
   )
 }

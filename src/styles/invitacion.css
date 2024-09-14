@@ -16,11 +16,15 @@
 
 }
 .img-fondo-2{
-  top:0px;
-  right:50px;
+  top:-30px;
+  right:0px;
 }
-.img-fondo img{
-  width: 300px;
+.img-fondo-1{
+  width: 250px;
+  height: 250px;
+}
+.img-fondo-2{
+  width: 290px;
 }
 @media (min-width:768px ) {
   .img-fondo-2{
@@ -30,8 +34,8 @@
 }
 /* H E A D E R */
 
-.header{
-  margin-top:40px ;
+/* .header{
+  margin-top:100px ;
 }
 
 .header-image img{
@@ -41,16 +45,17 @@
   .header-image img{
     width: 500px;
   }
-}
+} */
 .frase{
   width: 80%;
-  margin: 30px 0 35px 0 ;
+  margin: 150px 0 35px 0 ;
 }
 
 .frase-text{
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   line-height:20px;
+  font-style: italic;
 }
 .frase_text-nos{
   margin-top: 50px;
@@ -90,14 +95,17 @@
   text-align: center;
   line-height:.8 ;
   font-family: var(--cursiva);
+  color:#bf9b30;
 }
 
 .datos-nombre-y{
+  margin: 10px 0;
   font-family: var(--fuentePrincipal);
   text-transform: uppercase;
   color:var(--color_detalles);
   text-align: center;
-  font-size: 80px;
+  font-size: 40px;
+  color:#bf9b30;
 }
 
 .datos-fecha{
@@ -189,7 +197,7 @@
 }
 .ubicaciones-card_card{
   width: 93%;
-  background-color: #EBF5FD;
+  background-color: var(--color_principal);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,6 +218,7 @@
 .card-hora{
   font-weight: bold;
   font-size: 30px;
+  color:var(--back-color);
 }
 .card-section{
   margin-top: 15px;
@@ -218,18 +227,21 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
+  color:var(--back-color);
 }
 .card-contenido{
   text-align: center;
   text-transform: uppercase;
   font-size: 15px;
   margin-top:10px ;
+  color:var(--back-color);
 }
 .card-from{
   font-family: var(--cursiva);
   text-align: center;
   font-size: 18px;
+  color:var(--back-color);
 }
 
 .card-button{
@@ -237,8 +249,8 @@
 }
 
 .card-button button{
-  background-color:var(--color_principal) ;
-  color:var(--color_secundario);
+  background-color:var(--back-color) ;
+  color:var(--color_principal);
   padding: 10px 15px;
   font-size: 25px;
   border-radius: 20px;
@@ -246,7 +258,7 @@
 
 
 .card-button a{
-  color: #fff;
+  color: var(--color_principal);
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
@@ -282,89 +294,47 @@
 /*C O N F I R M A C I O N */
 
 .confirmar{
-  width: 90%;
   margin: 100px 0;
 }
-.confirmar-title{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .confirmar-title h2{
-  color:var(--color_detalles)
-}
-.confirmar-title img{
-  width: 60px;
-}
-
-.confirmar-title h2{
-  font-family: var(--cursiva);
-  font-weight: bold;
+  margin: 10px 0;
+  color:var(--color_detalles);
   text-align: center;
-  font-size: 30px;
-  color: var(--color_principal);
+  font-family: var(--cursiva);
 }
 
-.confirmar-card{
-  margin-top: 20px;
-  background-color: #EBF5FD;
+.confirmar_div{
+  max-width: 100%;
+  background-color: var(--color_principal);
   padding: 30px;
-  border-radius: 10px;
+}
+.confirmar_content p{
+  color: var(--back-color);
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+}
 
-}
-.confirmar-card p{
-  width: 80%;
-  font-size: 26px;
-  color: var(--color_principal);
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.confirmar-border{
-  width: 90%;
-  padding: 20px;
-  border-top:var(--color_principal) solid thin;
-  border-bottom:var(--color_principal) solid thin;
-
-}
-.confirmar-border img{
-  width: 40px;
-}
-.confirmar-whats{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.confirmar-whats img{
-  width: 40px;
-}
-.confirmacion-buttons-content{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.confirmar-buttons-content-item{
+.confirmar_botones{
   display:flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
-.confirmar-icon img{
-  width: 100px;
+
+.confirmar_botones-item-icon img{
+  width: 120px;
 }
-.confirmar-whats p{
-  font-size: 22px;
-}
-.confirmar-card button{
-  background-color:var(--color_principal);
+
+.confirmar_botones-item button{
+  background-color:var(--back-color);
   color:var(--color_secundario);
   padding: 10px 15px;
   font-size: 25px;
   border-radius: 20px;
-  
 }
-.confirmar-card button a{
-  color: #fff;
+
+.confirmar_botones-item button a{
+  color:var(--color-principal);
   font-size: 15px;
 }
 @media (min-width: 768px) {
@@ -415,7 +385,7 @@
   text-align: center;
 }
 .lugares-leyenda{
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   text-align: center;
 }

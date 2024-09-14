@@ -7,7 +7,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
     <>
       <div className="ubicaciones-title centrar">
           <img src="/img/icons/ubicacion.svg" alt="" />
-          <h3>Ubicación</h3>
+          <h3>Ubicaciones</h3>
       </div>
       <div className="ubicaciones-cards">
         <div id='cardCeremoniaSection' className={`ubicaciones-card_card sombra ${cardCeremoniaVisible && 'animate__animated animate__fadeInLeft'}`}>
@@ -16,7 +16,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div className='card_icon'>
-            <img src='/img/icons/RINGS.svg' alt="icon-church" />
+            <img src='/img/icons/CHURCH.svg' alt="icon-church" />
           </div>
 
           <div>
@@ -42,12 +42,12 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div className='card_icon'>
-            <img src="/img/icons/RINGS.svg" alt="" />
+            <img src="/img/icons/recepcion.svg" alt="" />
           </div>
 
           <div>
             
-            <p className='card-hora'>{data.recepcion_hora}</p>
+            <p className='card-hora'>{data.recepcion_hora} Horas</p>
           </div>
 
           <div className='card-section'>

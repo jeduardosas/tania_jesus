@@ -67,9 +67,9 @@ const Invitacion = () => {
   }
 
   return (
-    <div className="centrar">
+    <div className="">
 
-      <div className="img-fondo">
+      <div className="img-fondo centrar">
         <img loading="lazy" className="img-fondo-1" src={`/img/${data.img_fondo1}`} alt="iimg-fondo" />
         <img loading="lazy" className="img-fondo-2" src={`/img/${data.img_fondo2}`} alt="iimg-fondo" />
       </div>
@@ -93,14 +93,14 @@ const Invitacion = () => {
           <p className="modal-tittle2-y">&</p>
           <p>{data.nombre_novio}</p>
         </h2>
-        <p className="modal-content">Para una mejor experiencia, por favor acepta la reproduccion automatica</p>   
+        <p className="modal-content">Para una mejor experiencia, por favor acepta la reproducción automatica</p>   
         <button className="modal-button" onClick={handlePlay}>Aceptar</button>
       </Modal>
 
       {
         play && (
           <>
-            <div className="reproductor">
+            <div className="reproductor centrar">
               <ReactAudioPlayer 
                 className="reproductor" 
                 src={song} 
@@ -108,30 +108,38 @@ const Invitacion = () => {
                 preload="auto"
                 controls/>
             </div>
-
-            <Header />
+            <div className="centrar">
+              <Header/>
+            </div>
+            
 
             <div id="datosSection" className="datos">
               <Datos datosVisible={datosVisible} datosFechaVisible={datosFechaVisible} />
             </div>
 
+            <div className="centrar">
             <CountDown />
+            </div>
 
-            <div className="ubicaciones">
+            <div className="ubicaciones centrar">
               <Ubicaciones 
                 cardCeremoniaVisible={cardCeremoniaVisible} 
                 cardRecepcionVisible={cardRecepcionVisible}/>
             </div>
 
+            <div className="centrar">
             <TimeLine />
+            </div>
 
+            <div className="centrar">
             <Regalos />
+            </div>
 
             <div className="slider">
               <Slider />
             </div>
 
-            <div className="lugares">
+            <div className="lugares centrar">
               <Reservacion pases={pases} />
             </div>
 

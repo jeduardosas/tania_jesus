@@ -8,7 +8,7 @@ const data = {
   nombre_mama_novio:'Maurilia Carreón Ortíz',
   nombre_padrino:'Sr. Jesús Flores Mota',
   nombre_madrina:'Sra. Blanca Estela Rangel Román',
-  frase:'Hay momentos en la vida que son muy especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar',
+  frase:'Hay momentos en la vida que son especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar',
   img_header:'',
   img_fondo1:'flor1.png',
   img_fondo2:'flor2.png',

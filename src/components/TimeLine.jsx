@@ -6,60 +6,60 @@ import '../styles/timeline.css'
 const TimeLine = () => {
 
   const settings = {
-    bgColor:'var(--color_principal)',
-    color:'#fff',
+    bgColor:'var(--color_secundario)',
+    color:'var(--color_principal)',
     lineColor:'var(--color_timeline)'
 
   }
   const protocol = [
     {
       id:1,
-      time:'18:00 PM',
+      time:'18:00 Hrs.',
       name:'Ceremonia religiosa',
-      icon:'rings_white',
+      icon:'church_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:2,
-      time:'19:00 PM',
+      time:'19:00 Hrs.',
       name:'Recepción',
-      icon:'drinking_white',
+      icon:'recepcion_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:3,
-      time:'19:30 PM',
+      time:'19:30 Hrs.',
       name:'C. Civil',
-      icon:'cutlery_white',
+      icon:'rings_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
 
     {
       id:4,
-      time:'21:00 PM',
+      time:'21:00 Hrs.',
       name:'Protocolo',
-      icon:'music_white',
+      icon:'drinking_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
     {
       id:5,
-      time:'22:00 PM',
+      time:'22:00 Hrs.',
       name:'Cena',
-      icon:'music_white',
+      icon:'cutlery_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },
     {
       id:6,
-      time:'23:00 PM',
+      time:'23:00 Hrs.',
       name:'Baile',
-      icon:'music_white',
+      icon:'music_timeline',
       color:'var(--color_timeline)',
       textColor:'rgb(218 167 88)'
     },

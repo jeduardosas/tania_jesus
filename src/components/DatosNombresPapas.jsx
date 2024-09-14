@@ -10,15 +10,16 @@ const DatosNombresPapas = () => {
         <div className='datos-nombres-papas_card'>
           <p>{data.nombre_mama_novia}</p>
           <p>{data.nombre_papa_novia}</p>
-        </div>
+        </div> 
         <div className='datos-nombres-papas_card'>
           <p>{data.nombre_mama_novio}</p>
           <p>{data.nombre_papa_novio}</p>
         </div>
       </div>
       <div className="datos_nombres-padrinos">
-        <p>{data.nombre_madrina}</p>
-        <p>{data.nombre_padrino}</p>
+        <p className="datos_nombres-padrinos_tittle">Padrinos de Velación</p>
+        <p className="datos_nombres-padrinos-name">{data.nombre_madrina}</p>
+        <p className="datos_nombres-padrinos-name">{data.nombre_padrino}</p>
       </div>
       
     </div> 
